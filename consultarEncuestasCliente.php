@@ -7,7 +7,7 @@
         echo "<h2>Constructor error aqui 0</h2><pre>" . $error . "</pre>";
     }
       
-    $result = $cliente->call("getProd", array("categoria" => "libros"));
+    $result = $cliente->call("getProd", array("categoria" => "encuestas"));
       
     if ($cliente->fault) {
         echo "<h2>Fault</h2><pre>aqui 1 ";
